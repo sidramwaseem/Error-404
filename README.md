@@ -37,13 +37,10 @@
 ## Overview
 
 ![screenshot](https://github.com/sidramwaseem/Error-404/blob/master/screenshot1.png?raw=true)
+![screenshot](https://github.com/sidramwaseem/Error-404/blob/master/screenshot2.png?raw=true)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+The demo of the page is available at the start of the README.md file. I really enjoyed working on this challenge given the fact it helped me polish my existing knowledge and cleared my doubts about certain elements and their working. Indeed the best way to learn development is by getting your hands dirty on different projects.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
