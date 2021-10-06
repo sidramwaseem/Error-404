@@ -1,34 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap");
+* {
   margin: 0;
   padding: 0;
 }
-
-body{
+body {
+  width: 100vw;
   height: 100vh;
-  border: 2px solid lightcoral;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.error-heading {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.45rem;
+  letter-spacing: -0.1rem;
+  margin: 40px 0 0 70px;
+}
+main {
   display: flex;
   flex-direction: column;
 }
+.scarecrow img {
+  max-width: 455px;
+  width: 100%;
+  height: auto;
+}
+.scarecrow {
+  align-self: center;
+}
+.error-msg-wrapper {
+  max-width: 455px;
+  width: 100%;
+  height: auto;
+  align-self: center;
+}
+.error-msg-wrapper h2 {
+  font-family: "Space Mono", monospace;
+  text-align: left;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.error-msg-wrapper p {
+  font-family: "Space Mono", monospace;
+  text-align: left;
+  font-weight: 400;
+  max-width: 19em;
+  width: 100%;
+  margin: 36px 0;
+}
+.home-btn {
+  padding: 24px 43px;
+  line-height: 20px;
+  color: white;
+  background-color: #333;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.035em;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+  align-content: center;
+}
+.home-btn:hover {
+  background-color: rgb(29, 29, 29);
+  cursor: pointer;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
 
-.wrapper{
-  border: 2px solid darkblue;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  margin: auto;
+.username-link {
+  color: #333;
 }
- img{
-  width: 40rem;
-  height: auto;
+
+.username-link:hover {
+  color: black;
 }
-.error-heading{
-  font-family: 'Inconsolata', monospace;
-  justify-self: flex-start;
-  align-self: flex-start;
-  letter-spacing: -0.1em;
-  font-size: 1.45rem;
-  margin: 40px 0 0 70px;
+
+.devchallenges-link {
+  color: #333;
+}
+.devchallenges-link:hover {
+  color: #f7542e;
+}
+
+@media screen and (min-width: 850px) {
+  main {
+    flex-direction: row;
+  }
+  .scarecrow img {
+    margin-left: 77px;
+  }
+  .error-msg-wrapper {
+    margin-left: 190px;
+  }
+  .error-msg-wrapper p {
+    font-family: "Space Mono", monospace;
+    text-align: left;
+    font-weight: 400;
+    max-width: 19em;
+    width: 100%;
+    margin: 36px 0;
+  }
 }
