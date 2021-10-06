@@ -69,5 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://error404-devio.netlify.app/)
-- GitHub [@your-username](https://github.com/sidramwaseem)
+- Website [PREVIEW:](https://error404-devio.netlify.app/)
+- GitHub [GITHUB ACCOUNT](https://github.com/sidramwaseem)
